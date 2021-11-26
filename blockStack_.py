@@ -1,4 +1,8 @@
-import mcpi.minecraft as minecraft
-mc = minecraft.create()
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
 
-mc.player.setBlock(x=0,y=y+1,z=0,blockType=103)
+x=4
+y=64
+z=9
+blockType=103
+mc.setBlock(x,y+1,z,blockType)
