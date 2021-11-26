@@ -1,0 +1,3 @@
+echo Moving: $1
+cp $1 ~/Library/Application\ Support/minecraft/mcpipy/
+ls ~/Library/Application\ Support/minecraft/mcpipy/$1
